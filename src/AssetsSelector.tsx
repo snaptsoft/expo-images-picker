@@ -280,6 +280,7 @@ const AssetsSelector = ({
             return responseWithResults(source, selectedAssets)
         } finally {
             setLoading(false)
+            setSelectedAssets([])
         }
     }
 
